@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
-import Landing from './pages/Landing';
+import Routes from './routes';
 
 function App() {
   return (
-    <Landing/>
+    <Routes/>
   );
 }
 
