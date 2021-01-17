@@ -7,8 +7,8 @@ import {
 
 import Home from './pages/Home'
 import AboutUs from './pages/AboutUs'
-import ClassDetails from './pages/ClassDetails'
-import Services from './pages/Services'
+import Classes from './pages/Classes'
+import Styles from './pages/Styles'
 import Team from './pages/Team'
 import Timetable from './pages/Timetable'
 import Booking from './pages/Booking'
@@ -20,10 +20,10 @@ function  Routes() {
     return (
         <Router>
             <Switch>
-                <Route path="/" exact component = {Home} />
+                <Route path="/" exact component={Home} />
                 <Route path="/about" exact component = {AboutUs} />
-                <Route path="/classes" exact component = {ClassDetails} />
-                <Route path="/services" exact component = {Services} />
+                <Route path="/classes" exact component = {Classes} />
+                <Route path="/styles" exact component = {Styles} />
                 <Route path="/team" exact component = {Team} />
                 <Route path="/timetable" exact component = {Timetable} />
                 <Route path="/booking" exact component = {Booking} />

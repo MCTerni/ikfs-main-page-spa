@@ -1,10 +1,12 @@
 import React from 'react'
 
 import logo from '../img/logo.png'
+import GetInTouch from './GetInTouch';
 
 function Footer() {
     return (
         <div>
+            <GetInTouch/>
             {/* Footer Section Begin */}
             <section className="footer-section">
                 <div className="container">

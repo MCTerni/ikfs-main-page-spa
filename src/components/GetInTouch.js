@@ -1,6 +1,6 @@
 import React from 'react'
 
-function HomeGetInTouch() {
+function GetInTouch() {
     return (
         <div>
             {/* Get In Touch Section Begin */}
@@ -36,4 +36,4 @@ function HomeGetInTouch() {
     )
 }
 
-export default HomeGetInTouch;
+export default GetInTouch;

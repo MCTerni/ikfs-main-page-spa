@@ -9,7 +9,6 @@ import HomeBanner from '../components/Home/HomeBanner'
 import HomePricing from '../components/Home/HomePricing'
 import HomeGallery from '../components/Home/HomeGallery'
 import HomeTeam from '../components/Home/HomeTeam'
-import HomeGetInTouch from '../components/Home/HomeGetInTouch'
 import Footer from '../components/Footer'
 
  
@@ -29,7 +28,6 @@ function Home(){
           <HomePricing/>
           <HomeGallery/>
           <HomeTeam/>
-          <HomeGetInTouch/>
           <Footer/>
           
         </div>
