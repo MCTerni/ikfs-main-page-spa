@@ -16,6 +16,7 @@ function HomeHero() {
                 loop
                 nav
                 margin={0}
+                dots={false}
                 >
                     <div className="hs-item " style={{backgroundImage:`url(${imgHero1})`}}>
                         <div className="container">

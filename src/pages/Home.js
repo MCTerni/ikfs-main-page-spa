@@ -2,7 +2,6 @@ import React from 'react'
 
 
 import TopMenu from '../components/TopMenu'
-import HomeHeader from '../components/Home/HomeHeader'
 import HomeHero from '../components/Home/HomeHero'
 import HomeChoseUs from '../components/Home/HomeChoseUs'
 import HomeClasses from '../components/Home/HomeClasses'
@@ -23,7 +22,6 @@ function Home(){
             <div className="loader" />
           </div>
           <TopMenu />
-          <HomeHeader />
           <HomeHero />
           <HomeChoseUs/>
           <HomeClasses/>
@@ -33,17 +31,7 @@ function Home(){
           <HomeTeam/>
           <HomeGetInTouch/>
           <Footer/>
-          {/* Search model Begin */}
-          <div className="search-model">
-            <div className="h-100 d-flex align-items-center justify-content-center">
-              <div className="search-close-switch">+</div>
-              <form className="search-model-form">
-                <input type="text" id="search-input" placeholder="Search here....." />
-              </form>
-            </div>
-          </div>
-          {/* Search model end */}
-          {/* Js Plugins */}
+          
         </div>
       );
     
