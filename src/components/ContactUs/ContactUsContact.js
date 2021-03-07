@@ -1,10 +1,10 @@
 import ContactUs from "../../pages/ContactUs"
 
 function ContactUsContact() {
-    return(
+    return (
         <div>
-{/* Contact Section Begin */}
-<section className="contact-section spad">
+            {/* Contact Section Begin */}
+            <section className="contact-section spad">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">
@@ -52,7 +52,7 @@ function ContactUsContact() {
                     </div>
                 </div>
             </section>
-            {/* Contact Section End */}I
+            {/* Contact Section End */}
         </div>
     )
 }

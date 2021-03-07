@@ -1,25 +1,24 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 
 function Menu() {
     return (
         <div>
             <ul>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/about">Escola</Link></li>
-                <li><Link to="/classes">Aulas</Link></li>
-                <li><Link to="/styles">Kung Fu | Taichi</Link></li>
-                <li><Link to="/team">Equipe</Link></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">Escola</a></li>
+                <li><a href="/classes">Aulas</a></li>
+                <li><a href="/styles">Kung Fu | Taichi</a></li>
+                <li><a href="/team">Equipe</a></li>
                 <li><a href='#'>+</a>
                     <ul className="dropdown">
-                        <li><Link to="timetable">Horários</Link></li>
-                        <li><Link to="booking">Agende!</Link></li>
-                        <li><Link to="gallery">Galeria</Link></li>
-                        <li><Link to="blog">Conteúdos</Link></li>
+                        <li><a href="timetable">Horários</a></li>
+                        <li><a href="booking">Agende!</a></li>
+                        <li><a href="gallery">Galeria</a></li>
+                        <li><a href="blog">Conteúdos</a></li>
                     </ul>
                 </li>
-                <li><Link to="contact">Contato</Link></li>
+                <li><a href="contact">Contato</a></li>
             </ul>
         </div>
     )

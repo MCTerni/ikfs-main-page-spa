@@ -14,22 +14,22 @@ function HomeGallery() {
             <div className="gallery-section">
                 <div className="gallery">
                     <div className="grid-sizer" />
-                    <div className="gs-item grid-wide set-bg" data-setbg={imgGallery1}>
+                    <div className="gs-item grid-wide set-bg" style={{ backgroundImage: `url(${imgGallery1})`}}>
                         <a href={imgGallery1} className="thumb-icon image-popup"><i className="fa fa-picture-o" /></a>
                     </div>
-                    <div className="gs-item set-bg" data-setbg={imgGallery2}>
+                    <div className="gs-item set-bg" style={{ backgroundImage: `url(${imgGallery2})`}}>
                         <a href={imgGallery2} className="thumb-icon image-popup"><i className="fa fa-picture-o" /></a>
                     </div>
-                    <div className="gs-item set-bg" data-setbg={imgGallery3}>
+                    <div className="gs-item set-bg" style={{ backgroundImage: `url(${imgGallery3})`}}>
                         <a href={imgGallery3} className="thumb-icon image-popup"><i className="fa fa-picture-o" /></a>
                     </div>
-                    <div className="gs-item set-bg" data-setbg={imgGallery4}>
+                    <div className="gs-item set-bg" style={{ backgroundImage: `url(${imgGallery4})`}}>
                         <a href={imgGallery4} className="thumb-icon image-popup"><i className="fa fa-picture-o" /></a>
                     </div>
-                    <div className="gs-item set-bg" data-setbg={imgGallery5}>
+                    <div className="gs-item set-bg" style={{ backgroundImage: `url(${imgGallery5})`}}>
                         <a href={imgGallery5} className="thumb-icon image-popup"><i className="fa fa-picture-o" /></a>
                     </div>
-                    <div className="gs-item grid-wide set-bg" data-setbg={imgGallery6}>
+                    <div className="gs-item grid-wide set-bg" style={{ backgroundImage: `url(${imgGallery6})`}}>
                         <a href={imgGallery6} className="thumb-icon image-popup"><i className="fa fa-picture-o" /></a>
                     </div>
                 </div>

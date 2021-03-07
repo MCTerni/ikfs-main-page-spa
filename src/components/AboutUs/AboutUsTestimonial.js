@@ -1,5 +1,11 @@
 import testimonial1 from "../../img/testimonial/testimonial-1.jpg"
-import testimonial2 from "../../img/testimonial/testimonial-1.jpg"
+import testimonial2 from "../../img/testimonial/testimonial-2.jpg"
+
+import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.css'
+import 'owl.carousel/dist/assets/owl.theme.default.css'
+import '../../css/custom.css'
+
 
 function AboutUsTestimonial() {
     return (
@@ -15,7 +21,14 @@ function AboutUsTestimonial() {
                             </div>
                         </div>
                     </div>
-                    <div className="ts_slider owl-carousel">
+                    <OwlCarousel className="ts_slider owl-carousel"
+                        items = {1}
+                        loop
+                        nav
+                        margin={0}
+                        autoplay
+                        autoplaySpeed={1000}
+                        autoplayHoverPause>
                         <div className="ts_item">
                             <div className="row">
                                 <div className="col-lg-12 text-center">
@@ -60,7 +73,7 @@ function AboutUsTestimonial() {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </OwlCarousel>
                 </div>
             </section>
             {/* Testimonial Section End */}

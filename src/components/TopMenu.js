@@ -1,7 +1,6 @@
 import React from 'react'
 import Menu from './Menu'
 import logo from '../img/logo.png'
-import {Link} from 'react-router-dom'
 
 
 function TopMenu(){
@@ -13,9 +12,9 @@ function TopMenu(){
                   <div className="row">
                       <div className="col-lg-3">
                           <div className="logo">
-                              <Link to="">
+                              <a href="/">
                                   <img src={logo} alt="" />
-                              </Link>
+                              </a>
                           </div>
                       </div>
                       <div className="col-lg-6">

@@ -6,7 +6,7 @@ function HomeBanner() {
     return (
         <div>
             {/* Banner Section Begin */}
-            <section className="banner-section set-bg" data-setbg={imgBannerBG}>
+            <section className="banner-section set-bg" style={{backgroundImage:`url(${imgBannerBG})`}}>
                 <div className="container" >
                     <div className="row">
                         <div className="col-lg-12 text-center">

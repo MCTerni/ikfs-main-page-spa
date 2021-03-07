@@ -49,8 +49,8 @@ function HomePricing() {
                                     <li>Foca pontos sensíveis do oponente</li>
                                     <li>Velóz, preciso e leve</li>
                                 </ul>
-                                <a href="#" className="primary-btn pricing-btn">Faça uma aula experimental</a>
-                                <a href="#" className="thumb-icon"><i className="fa fa-picture-o" /></a>
+                                <a href="/contact" className="primary-btn pricing-btn">Faça uma aula experimental</a>
+                                <a href="/contact" className="thumb-icon"><i className="fa fa-picture-o" /></a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-8">

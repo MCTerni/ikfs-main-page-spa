@@ -1,3 +1,12 @@
+import latest1 from "../../img/letest-blog/latest-1.jpg"
+import latest2 from "../../img/letest-blog/latest-2.jpg"
+import latest3 from "../../img/letest-blog/latest-3.jpg"
+import latest4 from "../../img/letest-blog/latest-4.jpg"
+import latest5 from "../../img/letest-blog/latest-5.jpg"
+import sidebarBanner from "../../img/sidebar-banner.jpg"
+import imgClassDetails from "../../img/classes/class-details/class-detailsl.jpg"
+import trainerProfile from "../../img/classes/class-details/trainer-profile.jpg"
+
 function ClassesDetails() {
     return (
         <div>
@@ -8,7 +17,7 @@ function ClassesDetails() {
                         <div className="col-lg-8">
                             <div className="class-details-text">
                                 <div className="cd-pic">
-                                    <img src="img/classes/class-details/class-detailsl.jpg" alt="" />
+                                    <img src={imgClassDetails} alt="" />
                                 </div>
                                 <div className="cd-text">
                                     <div className="cd-single-item">
@@ -33,7 +42,7 @@ function ClassesDetails() {
                                     <div className="row">
                                         <div className="col-md-6">
                                             <div className="cd-trainer-pic">
-                                                <img src="img/classes/class-details/trainer-profile.jpg" alt="" />
+                                                <img src={trainerProfile} alt="" />
                                             </div>
                                         </div>
                                         <div className="col-md-6">
@@ -82,7 +91,7 @@ function ClassesDetails() {
                                 </div>
                                 <div className="so-latest">
                                     <h5 className="title">Conteúdos</h5>
-                                    <div className="latest-large set-bg" data-setbg="img/letest-blog/latest-1.jpg">
+                                    <div className="latest-large set-bg" style={{backgroundImage:`url(${latest1})`}}>
                                         <div className="ll-text">
                                             <h5><a href="#" /></h5>
                                             <ul>
@@ -93,7 +102,7 @@ function ClassesDetails() {
                                     </div>
                                     <div className="latest-item">
                                         <div className="li-pic">
-                                            <img src="img/letest-blog/latest-2.jpg" alt="" />
+                                            <img src={latest2} alt="" />
                                         </div>
                                         <div className="li-text">
                                             <h6><a href="#">Grilled Potato and Green Bean Salad</a></h6>
@@ -102,7 +111,7 @@ function ClassesDetails() {
                                     </div>
                                     <div className="latest-item">
                                         <div className="li-pic">
-                                            <img src="img/letest-blog/latest-3.jpg" alt="" />
+                                            <img src={latest3} alt="" />
                                         </div>
                                         <div className="li-text">
                                             <h6><a href="#">The $8 French Rosé I Buy in Bulk Every Summer</a></h6>
@@ -111,7 +120,7 @@ function ClassesDetails() {
                                     </div>
                                     <div className="latest-item">
                                         <div className="li-pic">
-                                            <img src="img/letest-blog/latest-4.jpg" alt="" />
+                                            <img src={latest4} alt="" />
                                         </div>
                                         <div className="li-text">
                                             <h6><a href="#">Ina Garten's Skillet-Roasted Lemon Chicken</a></h6>
@@ -120,7 +129,7 @@ function ClassesDetails() {
                                     </div>
                                     <div className="latest-item">
                                         <div className="li-pic">
-                                            <img src="img/letest-blog/latest-5.jpg" alt="" />
+                                            <img src={latest5} alt="" />
                                         </div>
                                         <div className="li-text">
                                             <h6><a href="#">The Best Weeknight Baked Potatoes, 3 Creative Ways</a></h6>
@@ -128,7 +137,7 @@ function ClassesDetails() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="so-banner set-bg" data-setbg="img/sidebar-banner.jpg">
+                                <div className="so-banner set-bg" style={{backgroundImage:`url(${sidebarBanner})`}}>
                                     <h5>Banner 300x300</h5>
                                 </div>
                             </div>
