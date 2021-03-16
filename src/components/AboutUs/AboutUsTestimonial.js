@@ -1,3 +1,4 @@
+import React from 'react';
 import testimonial1 from "../../img/testimonial/testimonial-1.jpg"
 import testimonial2 from "../../img/testimonial/testimonial-2.jpg"
 

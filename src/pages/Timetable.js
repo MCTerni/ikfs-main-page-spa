@@ -1,3 +1,4 @@
+import React from 'react';
 import Breadcrumb from "../components/Breadcrumb";
 import ClassesTimetable from "../components/Classes/ClassesTimetable";
 import Footer from "../components/Footer"

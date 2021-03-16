@@ -1,3 +1,4 @@
+import React from 'react';
 function StylesPricing() {
     return <div>
         {/* Pricing Section Begin */}

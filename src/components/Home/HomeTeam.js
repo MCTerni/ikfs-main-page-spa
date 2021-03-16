@@ -1,3 +1,4 @@
+import React from 'react';
 import TeamCarousel from "../TeamCarousel"
 
 function HomeTeam() {

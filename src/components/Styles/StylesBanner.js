@@ -1,3 +1,4 @@
+import React from 'react';
 import bannerBG from "../../img/banner-bg.jpg"
 function StylesBanner() {
     return (

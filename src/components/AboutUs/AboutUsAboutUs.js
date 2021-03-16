@@ -1,3 +1,4 @@
+import React from 'react';
 import aboutUsBG from "../../img/about-us.jpg"
 
 function AboutUsAboutUs() {

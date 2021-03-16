@@ -1,3 +1,4 @@
+import React from 'react';
 import services1 from "../../img/services/services-1.jpg"
 import services2 from "../../img/services/services-2.jpg"
 import services3 from "../../img/services/services-3.jpg"

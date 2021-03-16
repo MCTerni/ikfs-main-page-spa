@@ -1,3 +1,4 @@
+import React from 'react';
 import imgTeam1 from "../img/team/team-1.jpg"
 import imgTeam2 from "../img/team/team-2.jpg"
 import imgTeam3 from "../img/team/team-3.jpg"

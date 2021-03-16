@@ -1,3 +1,4 @@
+import React from 'react';
 import latest1 from "../../img/letest-blog/latest-1.jpg"
 import latest2 from "../../img/letest-blog/latest-2.jpg"
 import latest3 from "../../img/letest-blog/latest-3.jpg"
